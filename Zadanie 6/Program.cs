@@ -19,10 +19,14 @@ namespace Zadanie_6
             Console.WriteLine("Podaj b=");
             b = Convert.ToDouble(Console.ReadLine());
             suma = a + b;
-            iloraz = a:b;
+            iloraz = a/b;
             różnica = a - b;
             iloczyn = a * b;
-            Console.WriteLine();
+            Console.WriteLine($"Suma a i b to {suma}");
+            Console.WriteLine($"Iloraz a i b to {iloraz}");
+            Console.WriteLine($"Różnica a i b to {różnica}");
+            Console.WriteLine($"Iloczyn a i b to {iloczyn}");
+            Console.ReadKey(true);
         }
     }
 }
